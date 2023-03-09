@@ -20,6 +20,6 @@ public class AppTest
     public void testAppMessage()
     {
         App app = new App();
-        assertEquals("this is tarun devops", app.getMessage());
+        assertEquals("this is rajesh devops", app.getMessage());
     }
 }
