@@ -9,10 +9,6 @@ pipeline {
         stage('MAVEN BUILD ') {
             steps {
                 sleep 10    
-                #sh '''export M2_HOME==/opt/maven
-		#export PATH=$PATH:$MAVEN_HOME/bin
-		#mvn --version
-		#mvn clean package'''
             }
         }
     }
